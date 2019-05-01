@@ -1,0 +1,26 @@
+at S T A => 256 256 256
+sena.pgm => 0.785039  _ diff => 0.973066
+sensin.pgm => 0.668032 _ diff => 0.848843
+omaha.pgm => 0.718744 _ diff => 0.660125
+earth.pgm => 1.16064 _ diff => 1.16931
+----------------------------------------------------------------------------------------------------------
+at S T A => 1024 256 256
+sena.pgm => 0.834976 _ diff => 1.00544
+sensin.pgm => 0.699783 _ diff => 0.876
+omaha.pgm => 0.735992 _ diff => 0.676378
+earth.pgm => 1.21302 _ diff => 1.17205
+----------------------------------------------------------------------------------------------------------
+at S T A => 256 1024 256 _ diff => 0.611227
+sena.pgm => 0.726888  ,with diff => 0.900987
+sensin.pgm => 0.618548 ,with diff => 0.785966
+omaha.pgm => 0.665504 ,with diff => 0.611227
+earth.pgm => 1.07526  ,with diff => 1.0833 
+----------------------------------------------------------------------------------------------------------
+at S T A => 1024 1024 256
+sena.pgm =>   0.834976, with diff => 1.00544 
+sensin.pgm => 0.699783 , with diff => 0.876
+omaha.pgm => 0.735992 , with diff => 0.676378
+earth.pgm => 1.21335, with diff => 1.17236
+----------------------------------------------------------------------------------------------------------
+in book it doesn't specify the S and T they are working with but it will be similer according to the same algo is working
+comment: by comparing earth.pgm compression ratio, increasing search buffer increase the compression ratio and getting refrence not always gives as best compression

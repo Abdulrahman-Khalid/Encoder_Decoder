@@ -1,0 +1,20 @@
+SENA:
+ m                  1           2           (3)           5           10
+compression ratio   1.09255     1.12816     1.14294     1.1541     3.15132
+----------------------------------------------------------------------------------------------------------
+SENSIN:
+ m                  1           2           (3)           5           10
+compression ratio   1.02538    1.05774     1.06871     1.07857     8.3866
+----------------------------------------------------------------------------------------------------------
+OMAHA:
+ m                  1           2           (3)           5           10
+compression ratio   1.0731     1.1112     1.12487     1.13583     2.97737
+----------------------------------------------------------------------------------------------------------
+EARTH:
+ m                  1           2           (3)           5           10
+compression ratio   1.46366    1.5747      1.61431    1.6466        11.1043 
+
+### number is close to the ones in the book
+### compression ratio over m=10 (very wrong) because of the overflow: using only long double for U and L and bitset<32>, it was the given parameters
+
+Note That: use m = 3 when you encode then decode to get good result

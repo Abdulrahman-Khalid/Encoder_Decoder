@@ -1,0 +1,14 @@
+Normal Encoding:
+sena => 56222 (1282 bytes diffrence less than the book)
+sensin => 60147 (1283 bytes diffrence less than the book)
+earth => 39253 (1281 bytes diffrence less than the book) 
+omaha => 57093 (1281 bytes diffrence less than the book)
+// comment: after comparison: ~1282 byte diffrence less than the book because I am not storing the table to encode it back
+---------------------------------------------------------------------------------------------------------
+Diff Encoding:
+sena => 32021 (947 byte diff than the book)
+sensin => 37561 (980 byte diff than the book)
+earth => 32596 (1284 byte diff than the book)
+omaha => 51480 (1163 byte diff than the book)
+// diffrence less than the book because I am not storing the table to encode it back
+// diffrence difrrences is because there is more matched diffrences in image than another so table size differ
